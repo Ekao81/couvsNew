@@ -1,0 +1,146 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-position: fixed;
+  background: url(https://lh3.googleusercontent.com/x0pFPxR4FWBa6GBOpKen7PQZDc6he5JTeF8WtK9IkQG5aG3kXwW5vMHZoQcvdK5V-Wuv2c4-uGysHsdnRr7EwGfICtY6SlLMOhZztk87GWbP06mbSxK13xh0tFpE_iYl-l5dJr4dGw=w2400);
+  background-position: center center;
+  background-repeat: repeat;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+
+.wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bold {
+  font-weight: 900;
+  
+}
+
+@font-face {
+  font-family: Outward;
+  src: url(Tightrope-Regular.ttf);
+}
+
+h1 {
+  font-family: Outward;
+  color: aliceblue;
+  font-size: 15rem;
+  font-style: italic;
+  
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+.blogItem {
+  width: 400px;
+  color: white;
+  margin: 3rem auto;
+  background: rgba(94, 59, 59, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(252, 3, 3, 0.37);
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blogItem h2 {
+  margin: .5rem 2.2rem;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  font-family:'Oswald', sans-serif;
+}
+
+.blogItem p {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 15px;
+  font-family:'Oswald', sans-serif;
+  color: rgb(238, 205, 205);
+}
+
+.blogItem h5 {
+  color: white;
+  text-transform: uppercase;
+  background-color: orange;
+  border-radius: 12px;
+  padding: 5px;
+  display: inline-block;
+  align-self: flex-start;
+  margin: 1rem;
+}
+
+.blogItem:hover {
+  scale: 1.02;
+  transition: all 100ms ease-in;
+}
+.footer {
+  display: flex;
+  margin: 1rem ;
+}
+
+.footer img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10rem;
+}
+
+.footer h4  {
+  padding-left: 10px;
+  padding-top: 5px;
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+} 
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+@media (max-width: 905px) {
+  h1 {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 605px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  html {
+    font-size: .8rem;
+  }
+
+  .blogItem p {
+    padding: 0;
+  }
+}

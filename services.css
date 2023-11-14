@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fdfbfb;
+}
+
+:root {
+    --red: #c10206;
+    --white:#fffbf2;
+    --black:#211d21;
+    --grey:#211d21;
+    --carmine: #a50113;
+  }
+
+/* _________MENTORSHIP LP____________ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-position: fixed;
+    background: url(https://lh3.googleusercontent.com/x0pFPxR4FWBa6GBOpKen7PQZDc6he5JTeF8WtK9IkQG5aG3kXwW5vMHZoQcvdK5V-Wuv2c4-uGysHsdnRr7EwGfICtY6SlLMOhZztk87GWbP06mbSxK13xh0tFpE_iYl-l5dJr4dGw=w2400);
+    background-position: center center;
+    background-repeat: repeat;
+    
+}
+
+.page__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem ;
+   
+}
+
+.header__h1 {
+    margin: 3rem 10rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--white);
+
+    padding: 1rem;
+    border-top: 4px solid var(--red);
+    border-bottom: 4px solid var(--red);
+    background: rgba(0, 0,0, 0.8);
+}
+
+.mentorship__span {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: red;
+    font-size: 4rem;
+}
+
+.page__header p {
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 3rem 1rem;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    color: var(--white);
+}
+
+.mentorship__span {
+    color: linear-gradient( red 10%, white 40% , blue 80%);
+}
+
+/* ________OFFER SECTION_________ */
+
+.wrapper__offers {
+    margin-bottom: 3rem;
+}
+
+.offers__header{
+    text-transform: uppercase;
+    font-size: 3rem;
+    
+    padding: 10px 20px;
+    
+    color: var(--white);
+    margin: 5rem auto;
+
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.offer-1 {
+    width: 80%;
+    padding: 15px;
+    margin: 1em;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 12px;
+
+}
+
+
+.offer-1 h1 {
+    font-size: 2rem;
+    padding: 10px;
+    color: var(--carmine);
+}
+
+.offer-1 p {
+    text-align: start;
+    border-left: solid;
+    font-size: 1.3rem;
+    padding: 20px;
+    margin: 1rem;
+    color: var(--white);
+}
+
+.mentorship-offer {
+    width: 40%;
+}
+
+.mentorship-offer button { 
+    width: 70%;
+    margin: 1em;
+    font-size: 2rem;
+    padding: 1em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--red);
+}
+/*  */
+/* _________VIDEO ANALYSIS LP_________ */
+
+.video__offer-1 {
+    width: 40%;
+    padding: 15px;
+    margin: 1em;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 12px;
+}
+
+.video__offer-1 h1 {
+    color: var(--red);
+}
+
+.video__offer-1 p {
+    text-align: start;
+    border-left: solid;
+    padding: 20px;
+    color: var(--white);
+}
+
+.video__offer-1 button { 
+    width: 80%;
+    margin: .5em;
+    font-size: 2rem;
+    padding: .5em;
+    cursor: pointer;
+    align-self: baseline;
+}
+
+/* ____________ */
+
+.video__offer-2 {
+    width: 40%;
+    padding: 15px;
+    margin: 1em;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 12px;
+}
+
+.video__offer-2 h1 {
+    color: var(--red);
+}
+
+.video__offer-2 p {
+    text-align: start;
+    border-left: solid;
+    padding: 20px;
+    color: var(--white);
+}
+
+.video__offer-2 button { 
+    width: 80%;
+    margin: .5em;
+    font-size: 2rem;
+    padding: .5em;
+    cursor: pointer;
+    align-self: baseline;
+}
+
+
+/*  */
+/*  */
+/* ___TRAINING PROGRAMS____ */
+
+.offers-tp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.training__program h2 {
+    font-size: 2.5rem;
+    width: 70%;
+    margin: 1rem auto;
+    color: var(--white);
+}
+
+.training__program  p{
+    width: 70%;
+}
+
+.tp__offer-1 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 12px;
+    margin-bottom: 3rem;
+}
+
+.tp__offer-1 h1 {
+    width: 20%;
+    color: var(--red);
+}
+
+.tp__offer-1 p {
+    width: 50%;
+    padding: 2rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    color: var(--white);
+}
+
+.tp__offer-1 button {
+    text-align: center;
+    padding: .5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* __________ */
+
+.tp__offer-2 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 12px;
+    margin-bottom: 3rem;
+}
+
+.tp__offer-2 h1 {
+    width: 20%;
+    color: var(--red);
+}
+
+.tp__offer-2 p {
+    width: 50%;
+    padding: 2rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    color: var(--white);
+}
+
+.tp__offer-2 button {
+    text-align: center;
+    padding: .5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+/*  */
+/*  */
+/* _________CAREER CONSULTATIONS________ */
+
+/*  */
+
+/* Privacy Policy */
+
+.privacyPolicy {
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.privacyPolicy h1 {
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.privacyPolicy span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* BTN */
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
+
+/* ______MEDIA QUERIES______ */
+
+@media (max-width: 888px) {
+    html {
+        font-size: .7rem;
+        
+      }
+}
+
+@media (max-width: 638px) {
+    html {
+        font-size: .4rem;
+        overflow-x: hidden;
+      }
+
+    .mentorship-offer {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 478px) {
+    .video__query {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video__offer-1,
+    .video__offer-2 {
+        width: 80%;
+        
+    }
+
+
+}

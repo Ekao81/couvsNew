@@ -1,0 +1,240 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+    --red: #c10206;
+    --white:#fffbf2;
+    --black:#211d21;
+    --grey:#211d21;
+    --carmine: #a50113;
+  }
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    background: url(https://lh3.googleusercontent.com/x0pFPxR4FWBa6GBOpKen7PQZDc6he5JTeF8WtK9IkQG5aG3kXwW5vMHZoQcvdK5V-Wuv2c4-uGysHsdnRr7EwGfICtY6SlLMOhZztk87GWbP06mbSxK13xh0tFpE_iYl-l5dJr4dGw=w2400); 
+    background-position: center center;
+    background-repeat: repeat;
+    
+      
+}
+
+.pageHeader {
+    font-size: 4rem;
+    margin: 2rem;
+    text-align: center;
+    
+}
+
+.header__h1 {
+    margin: 5rem auto;
+    font-weight: 300;
+    width: 100%;
+    font-size: 3rem;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 1rem;
+    border-top: 4px solid var(--red);
+    border-bottom: 4px solid var(--red);
+    background: rgba(0, 0,0, 0.8);
+    line-height: 1.5;
+    max-width: 1200px;
+}
+
+.mentorship__span {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: red;
+    font-size: 4rem;
+    
+}
+
+.drills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.skating-drill,
+.onIce-drills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    background: rgba(110, 89, 89, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(170, 18, 18, 0.37);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 5px;
+    padding: 10px 0 ;
+    max-width: 460px;
+}
+
+iframe {
+    height: 250px;
+    width: 460px;
+}
+
+.skating-drill p,
+.onIce-drills p {
+    text-align: left;
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.description-span {
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+  
+
+h1,
+p {
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 2rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer {
+    margin: 3rem;
+    font-size: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(219, 9, 9);
+    font-size: 2rem;
+}
+
+/* ----------------BLOG POST PAGE----------------- */
+
+.blog-div {
+    max-width: 1200px;
+    width: 80%;
+    padding: 3rem;
+    margin: 2rem auto;
+    background: rgba( 63, 7, 7, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba(240, 9, 44, 0.37);
+    backdrop-filter: blur( 17.5px );
+    -webkit-backdrop-filter: blur( 17.5px );
+    border-radius: 2rem;
+    border: 1px solid rgba(150, 18, 18, 0.18);
+  }
+  
+  .blog-div > * {
+    margin: 1rem;
+  }
+  
+  .blog-div h1 {
+    line-height: 1;
+    text-shadow: 4px 4px 16px rgba(22, 2, 2, 0.6);
+    text-align: center;
+  }
+  
+  .blog-div > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+  
+  .blog-div > ul {
+    color: wheat;
+    margin-left: 4rem;
+  }
+  
+  .blog-div > a {
+    text-decoration: none;
+  }
+  
+  /* ---------------------------------  */
+  
+
+@media (max-width: 888px) {
+    html {
+        font-size: .9rem;
+        
+      }
+
+      .blog-div {
+        width: 90%;
+      }
+
+      .header {
+        font-size: 3rem;
+      }
+
+      body {
+        width: 90%;
+      }
+
+      .blog-div > p {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 638px) {
+    html {
+        overflow-x: hidden;
+      }
+
+    .mentorship-offer {
+        width: 70%;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .pageHeader {
+        padding-bottom: 5rem;
+    }
+
+    iframe {
+        height: 200px;
+        width: 300px;
+    }
+
+    .skating-drill,
+    .onIce-drills {
+        max-width: 300px;
+    }
+
+    .blog-div {
+        width: 99%;
+        margin: 1rem .2 rem;
+        padding: 10px;
+    }
+
+    .blog-div > p {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    body {
+        width: 95%;
+    }
+}
