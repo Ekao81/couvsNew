@@ -1108,6 +1108,7 @@ a  {
 
     i {
       margin: 0 auto;
+      margin-top: 2rem;
     }
 
     header {
@@ -1130,7 +1131,7 @@ a  {
     .logo-header {
       width: 15rem;
       margin: 2rem auto;
-      top: 50px;
+      top: 30px;
       left: -140px;
     }
     .text-wrapper {
