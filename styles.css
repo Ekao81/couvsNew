@@ -365,7 +365,10 @@ img {
   padding-bottom: 4rem;
   border-radius: 20px;
   margin: 0 auto;
+  position: relative;
+  background-image: url(https://lh3.googleusercontent.com/pw/ADCreHffkMGtfJvrSw3P5pheDeuamaSQ0g88PrSa1BJbw8guM94YNATX_PW2KrwS2_fIdAjUkWDdtEj-kGEsLtj-PLtm-16f0RzxKeEfGkx8nU0-GPrM48rl=w2400);
   
+  background-size: cover;
 }
 
 .services-card-inside {
@@ -382,6 +385,8 @@ img {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  background-image: url(https://lh3.googleusercontent.com/pw/ADCreHffkMGtfJvrSw3P5pheDeuamaSQ0g88PrSa1BJbw8guM94YNATX_PW2KrwS2_fIdAjUkWDdtEj-kGEsLtj-PLtm-16f0RzxKeEfGkx8nU0-GPrM48rl=w2400);
+  background-size: cover;
 }
 
 .card-hover:hover,
@@ -392,6 +397,7 @@ img {
   -webkit-box-shadow: 8px 8px 24px 0px rgba(243, 2, 11, 1);
   -moz-box-shadow: 8px 8px 24px 0px rgba(243, 2, 11, 1);
   box-shadow: 8px 8px 24px 0px rgba(243, 2, 11, 1);
+  
 }
 
 .anchor-1 {
@@ -959,6 +965,10 @@ a  {
     .title {
       font-size: clamp(2rem, 1.2239rem + 2.3881vw, 2.5rem);
     }
+
+    .about-left p {
+      font-size: 16px;
+    }
   }
   
   
@@ -999,14 +1009,16 @@ a  {
       justify-content: center;
       align-items: center;
     }
+
+    .about-left p {
+      font-size: 16px;
+    }
   }
 
 
   
   @media (max-width: 480px) {
-    .nav {
-      
-    }
+    
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
