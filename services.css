@@ -87,6 +87,28 @@ main {
     color: linear-gradient( red 10%, white 40% , blue 80%);
 }
 
+.mentorship-details {
+    width: 80%;
+    text-align: left;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.h2-details {
+    font-size: 3rem;
+    color: var(--red);
+    text-align: left;
+    margin-left:10rem;
+
+}
+
+.mentorship-details-span {
+    color: var(--red);
+    font-weight: 600;
+    background-color: black;
+    padding: 2px 4px;
+}
 /* ________OFFER SECTION_________ */
 
 .wrapper__offers {
@@ -100,7 +122,7 @@ main {
     padding: 10px 20px;
     
     color: var(--white);
-    margin: 5rem auto;
+    margin: 2rem auto;
 
 }
 

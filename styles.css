@@ -759,7 +759,7 @@ a  {
   }
   @media screen and (max-width: 767px) {
     .form-main .main-wrapper {
-      width: 90%;
+      width: 100%;
     }
   }
   .form-main .main-wrapper .form-head {
@@ -1095,7 +1095,7 @@ a  {
       left: 0%;
       overflow: hidden;
       z-index: 10;
-      opacity: .7;
+      opacity: .95;
     }
     .nav > .nav-list > li {
         width: 100%;
@@ -1105,7 +1105,7 @@ a  {
     }
     .nav > #nav-check:checked ~ .nav-list {
       height: 400px;
-      background-color: rgb(56, 36, 36);
+      background-color: rgb(48, 17, 17);
       position: absolute;
       z-index: 1;
       top: 0;
@@ -1157,5 +1157,9 @@ a  {
       height: 12.5rem;
       top: -280px;
       left: 205px;
+    }
+
+    .legal-footer {
+      font-size: 80%;
     }
 }
