@@ -1115,7 +1115,7 @@ a  {
 
     .title {
       font-size: 1.5rem;
-     
+      display: none;
     } 
 
     i {
@@ -1143,7 +1143,7 @@ a  {
     .logo-header {
       width: 15rem;
       margin: 2rem auto;
-      top: 30px;
+      top: 20%;
       left: -140px;
     }
     .text-wrapper {
