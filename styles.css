@@ -1141,10 +1141,10 @@ a  {
     }
 
     .logo-header img {
-      min-width: 180px;
+      min-width: 200px;
       position: absolute;
       top: 25%;
-      left: 27%;
+      left: clamp(22%, 24%, 26%);
       z-index: 5;
     }
 
