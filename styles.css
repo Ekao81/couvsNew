@@ -134,18 +134,24 @@ img {
     position: relative;
   }
 
-  .logo-header {
-    width: 20rem;
-    position: relative;
-    margin-right: 9%;
-    margin-top: 3%;
+  .gif-wrapper{
+    position: absolute;
+    bottom: 10%;
+    left: 46%;
+    
+  }
+  .gif{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://icons8.com/icon/QIu3lQM3WFpB/down);
   }
 
 
   .logo-header img {
     position: absolute;
+    width: 27%;
     top: 20%;
-    right: 20%;
+    left: 9%;
     z-index: 5;
   }
 
@@ -189,7 +195,7 @@ img {
     /* background-image: url(https://lh3.googleusercontent.com/pw/ADCreHffkMGtfJvrSw3P5pheDeuamaSQ0g88PrSa1BJbw8guM94YNATX_PW2KrwS2_fIdAjUkWDdtEj-kGEsLtj-PLtm-16f0RzxKeEfGkx8nU0-GPrM48rl=w2400); */
     /* background-image: url(https://lh3.googleusercontent.com/pw/ADCreHf53hT5T08yUpFkrUDsYebkw068RerIqMsjiHDduLnMDHghMU_AoyIKnyuxTPFudGWGGM4ZMPn9hjA3YwaRhwSFa6apUsNz21G9fpoMuNvbxa-yfe2R=w2400); */
     background-size: cover;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 2rem;
     background-color: var(--black);
     color: white;
@@ -1025,7 +1031,7 @@ a  {
       position: absolute;
       right: 0;
       top: 0;
-      padding-top: 0.2rem;
+      padding-top: 0.5rem;
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -1038,7 +1044,7 @@ a  {
     .nav > .nav-btn > label > span {
       display: block;
       position: absolute;
-      width: 25px;
+      width: 30px;
       height: 3px;
       background-color: rgb(253, 253, 253);
       border-radius: 50px;
@@ -1135,18 +1141,21 @@ a  {
     }
 
     .logo-header img {
+      min-width: 180px;
       position: absolute;
-      top: -480px;
-      left: 152px;
+      top: 25%;
+      left: 27%;
       z-index: 5;
     }
 
-    .logo-header {
-      width: 15rem;
-      margin: 2rem auto;
-      top: 0%;
-      left: -140px;
+  
+    .gif-wrapper{
+      bottom: 5%;
+      left: 40%;
+      
     }
+
+
     .text-wrapper {
       font-size: 1.2rem;
       top: -250px;
