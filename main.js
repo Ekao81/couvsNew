@@ -13,38 +13,38 @@ let isChickenVisible;
 let people = [
 	{
 		photo:
-			'url("https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg")',
-		name: "Susan Smith",
-		profession: "WEB DEVELOPER",
+			'',
+		name: "Eric Hildebrandt",
+		profession: "",
 		description:
-			"Cheese and biscuits chalk and cheese fromage frais. Cheeseburger caerphilly cheese slices chalk and cheese cheeseburger mascarpone danish fontina rubber cheese. Squirty cheese say cheese manchego jarlsberg lancashire taleggio cheese and wine squirty cheese. Babybel pecorino feta macaroni cheese brie queso everyone loves gouda. Cheese and biscuits camembert de normandie fromage fromage macaroni cheese"
+			"Have to take a minute and thank Connor Lacouvee for the online goalie coaching session with my 10U goalie. Having a professional goalie review his game footage, praise his highlights, and offer constructive feedback was a great boost to his confidence. Looking forward to booking another session to mentally prepare for try outs! I highly recommend booking a session with him for your tendy!"
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2019/02/11/20/20/woman-3990680_960_720.jpg')",
-		name: "Anna Grey",
-		profession: "UFC FIGHTER",
+			"",
+		name: "Zach Sanford",
+		profession: "",
 		description:
-			"I'm baby migas cornhole hell of etsy tofu, pickled af cardigan pabst. Man braid deep v pour-over, blue bottle art party thundercats vape. Yr waistcoat whatever yuccie, farm-to-table next level PBR&B. Banh mi pinterest palo santo, aesthetic chambray leggings activated charcoal cred hammock kitsch humblebrag typewriter neutra knausgaard. Pabst succulents lo-fi microdosing portland gastropub Banh mi pinterest palo santo"
+			"Connor is a true professional when it comes to his knowledge and competitiveness for the game of hockey. He's always pushing you to be the best you can be and will do anything it takes to make you better. His skating and ability to stop the puck is excellent which makes him have many great ways of teaching anyon until they perfect their craft"
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg')",
-		name: "Branson Cook",
-		profession: "ACTOR",
+			"",
+		name: "Sean Kelly",
+		profession: "",
 		description:
-			"Radio telescope something incredible is waiting to be known billions upon billions Jean-François Champollion hearts of the stars tingling of the spine. Encyclopaedia galactica not a sunrise but a galaxyrise concept of the number one encyclopaedia galactica from which we spring bits of moving fluff. Vastness is bearable only through love paroxysm of global death concept"
+			"Thanks for the awesome workouts this summer. Very refreshing. As a goalie yourself with a solid resume I believe you under the principal of being efficient vs being perfect, and your way of communicating this and your coaching philosophy/ drills are tailored perfectly to this principal. As I get older and reflect on my path as a goalie, I definitely would have appreciated this type of approach in my younger days. I believe this is the way to go to develop quality athletes but more importantly quality individuals."
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
-		name: "Julius Grohn",
-		profession: "PROFESSIONAL CHILD",
+			"",
+		name: "Alice Maher",
+		profession: "",
 		description:
-			"Biscuit chocolate pastry topping lollipop pie. Sugar plum brownie halvah dessert tiramisu tiramisu gummi bears icing cookie. Gummies gummi bears pie apple pie sugar plum jujubes. Oat cake croissant bear claw tootsie roll caramels. Powder ice cream caramels candy tiramisu shortbread macaroon chocolate bar. Sugar plum jelly-o chocolate dragée tart chocolate marzipan cupcake gingerbread."
+			"My daughter is working to move up to a more competitive level for fall so we scheduled a :30 minute film review with Connor. The insights he gave my daughter are great for her to focus on during spring season and continue to hone into her strengths. Connor did a great job breaking down her ice time. It boosted her confidence and she is planning on working in his suggestions during spring. Highly recommend signing up with Connor for a film review! "
 	}
 ];
 
